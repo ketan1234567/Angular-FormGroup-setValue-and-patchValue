@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+   selector: 'app-root',
+   template: `
+				<app-user></app-user>
+             `
 })
-export class AppComponent {
-  title = 'Angular-FormGroup-setValue-and-patchValue';
+export class AppComponent { 
 }
+    
