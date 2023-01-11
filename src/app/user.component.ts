@@ -20,7 +20,7 @@ export class UserComponent implements OnInit {
 			tc: ['', Validators.requiredTrue]
 		});
 	}
-	get userName() {
+	get userName() {	
 		return this.userForm.get('userName');
 	}
 	get gender() {
@@ -47,14 +47,18 @@ export class UserComponent implements OnInit {
 			age: 20,
 			gender: 'male',
 			isMarried: true,
-			tc: true
+			tc: true,
+		
+
 		});
 	}
 	patchUserValues() {
 		this.userForm.patchValue({
-			userName: 'Mahesh',
+			age: 20,
 			gender: 'male',
+			isMarried: true, 
 			tc: true
+
 		});
 	}
 }
