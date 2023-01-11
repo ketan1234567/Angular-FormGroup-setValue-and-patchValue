@@ -8,14 +8,14 @@
 			<td>Name:</td>
 			<td>
 				<input formControlName="userName">
-				<!--<div *ngIf="userName.errors && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
+				<div *ngIf="userName.errors && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
 					<div *ngIf="userName.errors.required">
 						Username required.
 					</div>
 					<div *ngIf="userName.errors.maxlength">
 						Username can be max 15 characters long.
 					</div>
-				</div>-->
+				</div>
 			</td>
 		</tr>
 		<tr>
@@ -29,11 +29,11 @@
 			<td>
 				<input type="radio" value="male" formControlName="gender"> Male
 				<input type="radio" value="female" formControlName="gender"> Female
-				<!--<div *ngIf="gender.errors && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
+				<div *ngIf="gender.errors && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
 					<div *ngIf="gender.errors.required">
 						Gender required.
 					</div>
-				</div>-->
+				</div>
 			</td>
 		</tr>
 		<tr>
@@ -46,9 +46,9 @@
 			<td>Accept T & C </td>
 			<td>
 				<input type="checkbox" formControlName="tc">
-				<!--<div *ngIf="tc.invalid && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
+				<div *ngIf="tc.invalid && isValidFormSubmitted != null && !isValidFormSubmitted" class="error">
 					Accept T & C.
-				</div>-->
+				</div>
 			</td>
 		</tr>
 		<tr>
